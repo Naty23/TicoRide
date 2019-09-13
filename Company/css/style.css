@@ -1276,3 +1276,7 @@ background: blue;
   height:100%;
   float:left;
 }
+.mapa-container{
+  min-height: 500px;
+  height: 500px;
+}
