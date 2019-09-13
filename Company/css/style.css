@@ -162,6 +162,9 @@ a:hover {
 }
 
 @media (max-width: 767px) {
+  #logo {
+    width: 48px!important;
+  }
 	.navbar-brand {
 		padding-top: 6px;
 	}
