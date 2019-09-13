@@ -84,7 +84,11 @@
     <div class="container">
       <div class="text-center">
         <h2>MAPA</h2>
-        
+        <div class="directionsContainer">
+            <div id="directionsPanel"></div>
+            <div id="directionsItinerary"></div>
+        </div>
+        <div id="myMap"></div>
       </div>
     </div>
   </div>
@@ -219,11 +223,13 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AnlUswgywN2gDv2drlOExpBJJDBKYeEe11wSaRgKNmsUxqmBRhhUHbu-qlB75EJ3' async defer></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.prettyPhoto.js"></script>
   <script src="js/jquery.isotope.min.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/functions.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 

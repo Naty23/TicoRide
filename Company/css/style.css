@@ -12,6 +12,11 @@
 @import url('animate.css');
 
 
+html, body{
+  padding:0;
+  margin:0;
+  height:100%;
+}
 
 body {
 	font-family:'Open Sans', Arial, sans-serif;
@@ -1256,3 +1261,18 @@ a.scrollup:hover{
 background: blue;
 }
 
+
+
+.directionsContainer{
+  width:380px;
+  height:100%;
+  overflow-y:auto;
+  float:left;
+}
+
+#myMap{
+  position:relative;
+  width:calc(100% - 380px);
+  height:100%;
+  float:left;
+}
